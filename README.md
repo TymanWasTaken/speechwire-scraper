@@ -28,4 +28,16 @@ The only permissions required are network permissions for the following domains:
 | Domain                    | Reason                                                                               |
 | ------------------------- | ------------------------------------------------------------------------------------ |
 | `postings.speechwire.com` | The speechwire website is needed in order to fetch schematics and scrape the website |
-| `ntfy.sh`                 | Used in order to send notifcations over ntfy                                         |
+| `ntfy.sh`                 | Used in order to send notifcations over ntfy (only if a topic is provided)           |
+
+# How to use (library)
+
+Everything is exported from lib/mod.ts, so that can be imported in order to use all of the exports of the library:
+
+```ts
+import { fetchStates } from "<url>/lib/mod.ts";
+
+const states = await fetchStates();
+
+console.log(states) // [ .., { id: "12", name: "Idaho" }, .. ]
+```
