@@ -1,0 +1,19 @@
+{
+	"imports": {
+		// Cliffy handles CLI parsing & ansi colors
+		"cliffy/": "https://deno.land/x/cliffy@v0.25.7/",
+		// Deno dom handles HTML parsing & scraping
+		"deno_dom/": "https://deno.land/x/deno_dom@v0.1.36-alpha/"
+	},
+	"fmt": {
+		"options": {
+			"useTabs": true,
+			"semiColons": true,
+			"singleQuote": false
+		}
+	},
+    "tasks": {
+		// Shortcut to run CLI
+        "cli": "deno run --allow-net=postings.speechwire.com,ntfy.sh cli.ts"
+    }
+}

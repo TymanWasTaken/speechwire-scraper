@@ -12,13 +12,14 @@ notify myself of new PF rounds, but it probably works for other people too
 
 ## How to use
 
-For updated information run the help command, but here is a basic list of commands:
+For updated information run the help command, but here is a basic list of
+commands:
 
-| Command               | Description                                                                                                                                                                                                                                                                                                        | Example                                      |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| `help` or `--help` | Show help information                                                                                                                                                                                                                                                                                                 | `--help`                                     |
-| `completions`         | Generate shell completions (bash, zsh, fish)                                                                                                                                                                                                                                                                       | `completions zsh`                            |
-| `notify`              | Track rounds for a specific event type of a specific tournament. If any of the options aren't provided (tournament, event type, round number to notify of), it will be prompted for interactively. Once the round is posted, it will send a notification via ntfy using the topic provided in the second argument. | `notify "John Joe" speechwire_scraper_topic` |
+| Command            | Description                                                                                                                                                                                                                                                                                                        | Example                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- |
+| `help` or `--help` | Show help information                                                                                                                                                                                                                                                                                              | `--help`                                     |
+| `completions`      | Generate shell completions (bash, zsh, fish)                                                                                                                                                                                                                                                                       | `completions zsh`                            |
+| `notify`           | Track rounds for a specific event type of a specific tournament. If any of the options aren't provided (tournament, event type, round number to notify of), it will be prompted for interactively. Once the round is posted, it will send a notification via ntfy using the topic provided in the second argument. | `notify "John Joe" speechwire_scraper_topic` |
 
 ## Necessary permissions
 
