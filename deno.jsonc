@@ -12,8 +12,8 @@
 			"singleQuote": false
 		}
 	},
-    "tasks": {
+	"tasks": {
 		// Shortcut to run CLI
-        "cli": "deno run --allow-net=postings.speechwire.com,ntfy.sh cli.ts"
-    }
+		"cli": "deno run --allow-net=postings.speechwire.com,ntfy.sh cli.ts"
+	}
 }

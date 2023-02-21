@@ -12,9 +12,9 @@ import {
 	fetchRounds,
 	fetchStates,
 	fetchTournaments,
-} from "./src/mod.ts";
+} from "./lib/fetchers/mod.ts";
 import { colors } from "cliffy/ansi/colors.ts";
-import { NotificationPriority, sendNotification } from "./src/ntfy.ts";
+import { NotificationPriority, sendNotification } from "./lib/utils/ntfy.ts";
 
 await new Command()
 	// Globals
